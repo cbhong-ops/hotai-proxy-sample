@@ -1,0 +1,16 @@
+<APIProxy revision="1" name="hotai-protected">
+    <DisplayName></DisplayName>
+    <Description></Description>
+    <CreatedAt>1779500524305</CreatedAt>
+    <LastModifiedAt>1779501991577</LastModifiedAt>
+    <BasePaths>/protected</BasePaths>
+    <Policies>
+        <Policy>VA-apikey</Policy>
+    </Policies>
+    <ProxyEndpoints>
+        <ProxyEndpoint>default</ProxyEndpoint>
+    </ProxyEndpoints>
+    <TargetEndpoints>
+        <TargetEndpoint>default</TargetEndpoint>
+    </TargetEndpoints>
+</APIProxy>

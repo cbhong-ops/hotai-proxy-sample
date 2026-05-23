@@ -1,0 +1,16 @@
+<APIProxy revision="1" name="hotai-single">
+    <DisplayName></DisplayName>
+    <Description></Description>
+    <CreatedAt>1779503443333</CreatedAt>
+    <LastModifiedAt>1779504222228</LastModifiedAt>
+    <BasePaths>/single</BasePaths>
+    <Policies>
+        <Policy>VA-apikey</Policy>
+    </Policies>
+    <ProxyEndpoints>
+        <ProxyEndpoint>default</ProxyEndpoint>
+    </ProxyEndpoints>
+    <TargetEndpoints>
+        <TargetEndpoint>default</TargetEndpoint>
+    </TargetEndpoints>
+</APIProxy>
