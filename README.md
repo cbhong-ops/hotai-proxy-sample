@@ -21,6 +21,7 @@ The project sets up a secure entry point for APIs with the following components:
 *   **jq**: Required for parsing JSON output in the scripts.
 *   **Google Cloud Project** with Apigee X enabled.
 *   **Application Default Credentials (ADC)** configured via `gcloud auth application-default login`.
+*   **Permissions**: The user or service account running the scripts needs appropriate Apigee roles. The **Apigee Organization Admin** (`roles/apigee.admin`) role is sufficient as the scripts create, deploy, and delete proxies, products, developers, and apps.
 
 ## Folder Structure
 
